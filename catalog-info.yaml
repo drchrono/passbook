@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: passbook
+  description: Python library to read/write (reading in progress) Apple Passbook (.pkpass)
+    files
+  annotations:
+    business-unit: EverHealth
+    github.com/project-slug: drchrono/passbook
+    product: DRC
+spec:
+  type: service
+  lifecycle: production
+  owner: EverHealth
+  implementation:
+    languages:
+    - Python
